@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsdLocal2="urn:/crmondemand/xml/ExchangeRate/Query" xmlns:xsdLocal1="urn:/crmondemand/xml/ExchangeRate/Data" xmlns:tns="urn:crmondemand/ws/ecbs/exchangerate/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:crmondemand/ws/ecbs/exchangerate/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:/crmondemand/xml/ExchangeRate/Query">
+      <xsd:annotation>
+        <xsd:documentation>
+Copyright (C) 2001, 2008, Oracle and/or its affiliates. All rights reserved. Siebel XSD Generation
+</xsd:documentation>
+      </xsd:annotation>
+      <xsd:element name="ListOfExchangeRate" type="xsdLocal2:ListOfExchangeRateQuery" />
+      <xsd:complexType name="ListOfExchangeRateTopElmtQuery">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ListOfExchangeRate" type="xsdLocal2:ListOfExchangeRateQuery" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ListOfExchangeRateQuery">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExchangeRate" type="xsdLocal2:ExchangeRateQuery" />
+        </xsd:sequence>
+        <xsd:attribute name="pagesize" type="xsd:integer" />
+        <xsd:attribute name="startrownum" type="xsd:integer" />
+        <xsd:attribute name="recordcountneeded" type="xsd:boolean" />
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeRateQuery">
+        <xsd:all>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedDate" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedDate" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedById" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedById" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Id" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExchangeDate" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExchangeRate" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FromCurrencyCode" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ToCurrencyCode" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByFirstName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByLastName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByUserSignInId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByAlias" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByFullName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByIntegrationId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByExternalSystemId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByEMailAddr" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByFirstName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByLastName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByUserSignInId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByAlias" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByFullName" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByIntegrationId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByExternalSystemId" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByEMailAddr" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedBy" type="xsdLocal2:queryType" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedBy" type="xsdLocal2:queryType" />
+        </xsd:all>
+        <xsd:attribute name="searchspec" type="xsd:string" />
+      </xsd:complexType>
+      <xsd:complexType name="queryType">
+        <xsd:simpleContent>
+          <xsd:extension base="xsd:string">
+            <xsd:attribute name="sortorder" type="xsd:string" />
+            <xsd:attribute name="sortsequence" type="xsd:string" />
+          </xsd:extension>
+        </xsd:simpleContent>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:/crmondemand/xml/ExchangeRate/Data">
+      <xsd:annotation>
+        <xsd:documentation>
+Copyright (C) 2001, 2008, Oracle and/or its affiliates. All rights reserved. Siebel XSD Generation
+</xsd:documentation>
+      </xsd:annotation>
+      <xsd:element name="ListOfExchangeRate" type="xsdLocal1:ListOfExchangeRateData" />
+      <xsd:complexType name="ListOfExchangeRateTopElmtData">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ListOfExchangeRate" type="xsdLocal1:ListOfExchangeRateData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ListOfExchangeRateData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ExchangeRate" type="xsdLocal1:ExchangeRateData" />
+        </xsd:sequence>
+        <xsd:attribute name="lastpage" type="xsd:boolean" />
+        <xsd:attribute name="recordcount" type="xsd:integer" />
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeRateData">
+        <xsd:all>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedById" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedById" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModId" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Id" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExchangeDate" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ExchangeRate" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="FromCurrencyCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ToCurrencyCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByFirstName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByLastName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByUserSignInId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByAlias" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByFullName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByIntegrationId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByExternalSystemId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="UpdatedByEMailAddr" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByFirstName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByLastName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByUserSignInId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByAlias" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByFullName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByIntegrationId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByExternalSystemId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedByEMailAddr" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="CreatedBy" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ModifiedBy" type="xsd:string" />
+        </xsd:all>
+        <xsd:attribute name="operation" type="xsd:string" />
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:crmondemand/ws/ecbs/exchangerate/">
+      <xsd:import namespace="urn:/crmondemand/xml/ExchangeRate/Query" />
+      <xsd:import namespace="urn:/crmondemand/xml/ExchangeRate/Data" />
+      <xsd:element name="ExchangeRateInsert_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+            <xsd:element minOccurs="0" name="LOVLanguageMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ViewMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Echo" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateInsert_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateQueryPage_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="NamedSearchSpec" type="xsd:string" />
+            <xsd:element ref="xsdLocal2:ListOfExchangeRate" />
+            <xsd:element minOccurs="0" name="LOVLanguageMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ViewMode" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateQueryPage_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateUpdate_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+            <xsd:element minOccurs="0" name="LOVLanguageMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ViewMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Echo" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateUpdate_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateDelete_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+            <xsd:element minOccurs="0" name="LOVLanguageMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ViewMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Echo" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateDelete_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateExecute_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+            <xsd:element minOccurs="0" name="LOVLanguageMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ViewMode" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Echo" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ExchangeRateExecute_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfExchangeRate" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="ExchangeRateInsert_Input">
+    <part name="ExchangeRateInsert_Input" element="tns:ExchangeRateInsert_Input" />
+  </message>
+  <message name="ExchangeRateInsert_Output">
+    <part name="ExchangeRateInsert_Output" element="tns:ExchangeRateInsert_Output" />
+  </message>
+  <message name="ExchangeRateQueryPage_Input">
+    <part name="ExchangeRateQueryPage_Input" element="tns:ExchangeRateQueryPage_Input" />
+  </message>
+  <message name="ExchangeRateQueryPage_Output">
+    <part name="ExchangeRateQueryPage_Output" element="tns:ExchangeRateQueryPage_Output" />
+  </message>
+  <message name="ExchangeRateUpdate_Input">
+    <part name="ExchangeRateUpdate_Input" element="tns:ExchangeRateUpdate_Input" />
+  </message>
+  <message name="ExchangeRateUpdate_Output">
+    <part name="ExchangeRateUpdate_Output" element="tns:ExchangeRateUpdate_Output" />
+  </message>
+  <message name="ExchangeRateDelete_Input">
+    <part name="ExchangeRateDelete_Input" element="tns:ExchangeRateDelete_Input" />
+  </message>
+  <message name="ExchangeRateDelete_Output">
+    <part name="ExchangeRateDelete_Output" element="tns:ExchangeRateDelete_Output" />
+  </message>
+  <message name="ExchangeRateExecute_Input">
+    <part name="ExchangeRateExecute_Input" element="tns:ExchangeRateExecute_Input" />
+  </message>
+  <message name="ExchangeRateExecute_Output">
+    <part name="ExchangeRateExecute_Output" element="tns:ExchangeRateExecute_Output" />
+  </message>
+  <portType name="ExchangeRate">
+    <operation name="ExchangeRateInsert">
+      <input message="tns:ExchangeRateInsert_Input" />
+      <output message="tns:ExchangeRateInsert_Output" />
+    </operation>
+    <operation name="ExchangeRateQueryPage">
+      <input message="tns:ExchangeRateQueryPage_Input" />
+      <output message="tns:ExchangeRateQueryPage_Output" />
+    </operation>
+    <operation name="ExchangeRateUpdate">
+      <input message="tns:ExchangeRateUpdate_Input" />
+      <output message="tns:ExchangeRateUpdate_Output" />
+    </operation>
+    <operation name="ExchangeRateDelete">
+      <input message="tns:ExchangeRateDelete_Input" />
+      <output message="tns:ExchangeRateDelete_Output" />
+    </operation>
+    <operation name="ExchangeRateExecute">
+      <input message="tns:ExchangeRateExecute_Input" />
+      <output message="tns:ExchangeRateExecute_Output" />
+    </operation>
+  </portType>
+  <binding name="ExchangeRate" type="tns:ExchangeRate">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ExchangeRateInsert">
+      <soap:operation soapAction="document/urn:crmondemand/ws/ecbs/exchangerate/:ExchangeRateInsert" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExchangeRateQueryPage">
+      <soap:operation soapAction="document/urn:crmondemand/ws/ecbs/exchangerate/:ExchangeRateQueryPage" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExchangeRateUpdate">
+      <soap:operation soapAction="document/urn:crmondemand/ws/ecbs/exchangerate/:ExchangeRateUpdate" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExchangeRateDelete">
+      <soap:operation soapAction="document/urn:crmondemand/ws/ecbs/exchangerate/:ExchangeRateDelete" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ExchangeRateExecute">
+      <soap:operation soapAction="document/urn:crmondemand/ws/ecbs/exchangerate/:ExchangeRateExecute" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ExchangeRate">
+    <port name="ExchangeRate" binding="tns:ExchangeRate">
+      <soap:address location="https://secure-ausomxjna.crmondemand.com/Services/Integration" />
+    </port>
+  </service>
+</definitions>

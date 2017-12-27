@@ -1,0 +1,9 @@
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Debug\Update_ExchangeRate.exe.config
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Debug\Update_ExchangeRate.exe
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Debug\Update_ExchangeRate.pdb
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Debug\Update_ExchangeRate.xml
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Debug\Update_ExchangeRate.Resources.resources
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Debug\ASBG_Update_ExchangeRate.vbproj.GenerateResource.Cache
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Debug\Update_ExchangeRate.exe
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Debug\Update_ExchangeRate.xml
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Debug\Update_ExchangeRate.pdb
