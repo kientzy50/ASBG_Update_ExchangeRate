@@ -1,0 +1,12 @@
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Release\Update_ExchangeRate.exe.config
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Release\Update_ExchangeRate.exe
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Release\Update_ExchangeRate.XmlSerializers.dll
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Release\Update_ExchangeRate.pdb
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\bin\Release\Update_ExchangeRate.xml
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\Update_ExchangeRate.Resources.resources
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\ASBG_Update_ExchangeRate.vbproj.GenerateResource.Cache
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\ASBG_Update_ExchangeRate.vbproj.CoreCompileInputs.cache
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\Update_ExchangeRate.exe
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\Update_ExchangeRate.xml
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\Update_ExchangeRate.pdb
+C:\Users\kientzy\Documents\_AT-SINC\Accounts\ASBG\WebServices\ASBG\ASBG_Update_ExchangeRate\ASBG_Update_ExchangeRate\obj\x86\Release\Update_ExchangeRate.XmlSerializers.dll

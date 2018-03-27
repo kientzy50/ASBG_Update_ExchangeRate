@@ -1,0 +1,485 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Update_ExchangeRate
+</name>
+</assembly>
+<members>
+<member name="T:Update_ExchangeRate.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Update_ExchangeRate.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Update_ExchangeRate.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRate">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.#ctor">
+<remarks/>
+</member>
+<member name="E:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateInsertCompleted">
+<remarks/>
+</member>
+<member name="E:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateQueryPageCompleted">
+<remarks/>
+</member>
+<member name="E:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateUpdateCompleted">
+<remarks/>
+</member>
+<member name="E:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateDeleteCompleted">
+<remarks/>
+</member>
+<member name="E:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateExecuteCompleted">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateInsert(Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateInsertAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateInsertAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input,System.Object)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateQueryPage(Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateQueryPageAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateQueryPageAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input,System.Object)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateUpdate(Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateUpdateAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateUpdateAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input,System.Object)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateDelete(Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateDeleteAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateDeleteAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input,System.Object)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateExecute(Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateExecuteAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.ExchangeRateExecuteAsync(Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input,System.Object)">
+<remarks/>
+</member>
+<member name="M:Update_ExchangeRate.ExchangeRate.ExchangeRate.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input.LOVLanguageMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input.ViewMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Input.Echo">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateData">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateData.ExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateData.lastpage">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateData.lastpageSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateData.recordcount">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateData">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModifiedDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModifiedDateSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedDateSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModifiedById">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedById">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModIdSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.Id">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ExchangeDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ExchangeDateSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ExchangeRateSpecified">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.FromCurrencyCode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ToCurrencyCode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByFirstName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByLastName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByUserSignInId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByAlias">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByFullName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByIntegrationId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByExternalSystemId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.UpdatedByEMailAddr">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByFirstName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByLastName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByUserSignInId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByAlias">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByFullName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByIntegrationId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByExternalSystemId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedByEMailAddr">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.CreatedBy">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.ModifiedBy">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateData.operation">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.queryType">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.queryType.sortorder">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.queryType.sortsequence">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.queryType.Value">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ModifiedDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ModifiedById">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedById">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ModId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.Id">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ExchangeDate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.FromCurrencyCode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ToCurrencyCode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByFirstName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByLastName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByUserSignInId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByAlias">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByFullName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByIntegrationId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByExternalSystemId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.UpdatedByEMailAddr">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByFirstName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByLastName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByUserSignInId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByAlias">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByFullName">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByIntegrationId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByExternalSystemId">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedByEMailAddr">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.CreatedBy">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.ModifiedBy">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQuery.searchspec">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery.ExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery.pagesize">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery.startrownum">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery.recordcountneeded">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ListOfExchangeRateQuery.recordcountneededSpecified">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Output">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsert_Output.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input.NamedSearchSpec">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input.LOVLanguageMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Input.ViewMode">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Output">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPage_Output.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input.LOVLanguageMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input.ViewMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Input.Echo">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Output">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdate_Output.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input.LOVLanguageMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input.ViewMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Input.Echo">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Output">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDelete_Output.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input.LOVLanguageMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input.ViewMode">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Input.Echo">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Output">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecute_Output.ListOfExchangeRate">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateInsertCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateInsertCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateInsertCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPageCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPageCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateQueryPageCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdateCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdateCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateUpdateCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateDeleteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateDeleteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateDeleteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateExecuteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Update_ExchangeRate.ExchangeRate.ExchangeRateExecuteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Update_ExchangeRate.ExchangeRate.ExchangeRateExecuteCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

@@ -108,7 +108,7 @@ Public Class _UpdateExchangeRate
 
             qryOut = xRatePrxy.ExchangeRateQueryPage(qryIn)
 
-            getCurrentExchangeRatesandUpdateQryOut(qryOut.ListOfExchangeRate)
+            getCurrentExchangeRatesandUpdateQryOut_v2(qryOut.ListOfExchangeRate)
 
 
             Update_ExchangeRate(qryOut.ListOfExchangeRate)
@@ -120,6 +120,50 @@ Public Class _UpdateExchangeRate
         Catch ex As Exception
             UpdateStatus(ex.Message)
         End Try
+
+    End Sub
+
+    Private Sub GetExchangeRateFromWeb(ByVal strCurrency As String, ByRef strExchangeRate As String, ByRef bError As Boolean)
+        Dim url As String = "https://free.currencyconverterapi.com/api/v5/convert?q=" & strCurrency & "_USD&compact=ultra"
+        Dim request As WebRequest = WebRequest.Create(url)
+        Dim response As WebResponse = request.GetResponse()
+
+        ' Get the stream containing content returned by the server.
+        Dim dataStream As Stream = response.GetResponseStream()
+        ' Open the stream using a StreamReader for easy access.
+        Dim readerURL As New StreamReader(dataStream)
+        ' Read the content.
+        Dim responseFromServer As String = readerURL.ReadToEnd()
+        ' Clean up the streams and the response.
+        If responseFromServer = "{}" Then
+            bError = True
+        Else
+            bError = False
+            Dim iStart As Integer = InStr(responseFromServer, ":") + 1
+            Dim iEnd As Integer = InStr(responseFromServer, "}")
+            strExchangeRate = Mid(responseFromServer, iStart, iEnd - iStart)
+        End If
+    End Sub
+
+
+    Sub getCurrentExchangeRatesandUpdateQryOut_v2(ByRef qryOut As ExchangeRate.ListOfExchangeRateData)
+        Dim strDate As String = DateTime.Now.ToString("MM/dd/yyyy")
+        Dim strCurrencyCode As String
+        Dim intNumCurrencies As Integer
+        Dim strXrate As String = ""
+        Dim bError As Boolean
+
+
+        For intNumCurrencies = 0 To CInt(qryOut.recordcount) - 1
+            strCurrencyCode = qryOut.ExchangeRate(intNumCurrencies).FromCurrencyCode
+            GetExchangeRateFromWeb(strCurrencyCode, strXrate, bError)
+            qryOut.ExchangeRate(intNumCurrencies).ExchangeRate = System.Convert.ToDecimal(strXrate)
+            qryOut.ExchangeRate(intNumCurrencies).ExchangeDate = System.Convert.ToDateTime(strDate)
+
+
+            UpdateStatus("Currency: " & strCurrencyCode & "  Rate: " & strXrate & " Date: " & strDate)
+        Next
+
 
     End Sub
 
